@@ -1,0 +1,1 @@
+export const API_ROOT = (process.env.NODE_ENV === 'production')?'http://localhost:63342/api' :'http://localhost:63342/OperationHtml/src/api'

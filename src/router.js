@@ -10,8 +10,14 @@ export default function (router) {
                     component:function (resolve) {
                         require(['./components/realNameAuto.vue'],resolve);
                     }
+                },
+                '/realNameInfor':{
+                    component:function (resolve) {
+                        require(['./components/realNameInfor.vue'],resolve);
+                    }
                 }
             }
-        }
+        },
+
     })
 }
